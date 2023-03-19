@@ -49,9 +49,10 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
+        // this will make the 'menu item' is not removing the 'hamburger icon' to 'Up Arrow Button'
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_cart
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

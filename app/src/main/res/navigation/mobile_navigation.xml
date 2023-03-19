@@ -22,4 +22,9 @@
         android:name="com.rickyslash.navigationdrawerapp.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.rickyslash.navigationdrawerapp.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
 </navigation>
